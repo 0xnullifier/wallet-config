@@ -22,7 +22,7 @@
     }
   ],
   "features": {
-    "earn": false,
+    "earn": true,
     "fastBridge": false,
     "bridgeIn": true,
     "bridgeOut": true
@@ -87,6 +87,15 @@
     "ethereum": {
       "chainId": 1,
       "bridges": {
+        "epoch": {
+          "depositEnabled": true,
+          "withdrawalEnabled": true,
+          "tokens": {
+            "USDC": {
+              "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            }
+          }
+        },
         "agglayer": {
           "depositEnabled": true,
           "withdrawalEnabled": true,
