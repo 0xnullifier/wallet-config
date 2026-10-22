@@ -1,6 +1,6 @@
 {
   "network": "mainnet",
-  "version": 8,
+  "version": 9,
   "swap": {
     "etaUrl": "https://api.forkchoice.xyz"
   },
@@ -25,7 +25,7 @@
     }
   ],
   "features": {
-    "earn": false,
+    "earn": true,
     "fastBridge": false,
     "bridgeIn": true,
     "bridgeOut": true
@@ -140,6 +140,15 @@
     "base": {
       "chainId": 8453,
       "bridges": {
+        "epoch": {
+          "depositEnabled": true,
+          "withdrawalEnabled": true,
+          "tokens": {
+            "USDC": {
+              "contractAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+            }
+          }
+        },
         "usdcx": {
           "domain": 6,
           "deposit": {
