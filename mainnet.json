@@ -1,6 +1,6 @@
 {
   "network": "mainnet",
-  "version": 21,
+  "version": 22,
   "limits": {
     "bridgeInMaxBalanceUsd": 1232.462
   },
@@ -134,7 +134,7 @@
         "name": "Bitcoin",
         "addressKind": "bitcoin",
         "tokens": {
-          "BTC": { "assetId": "nep141:btc.omft.near", "decimals": 8, "miden": ["wbtc"] }
+          "BTC": { "assetId": "1cs_v1:btc:native:coin", "decimals": 8, "miden": ["wbtc"] }
         }
       },
       "near": {
