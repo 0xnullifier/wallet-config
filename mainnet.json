@@ -1,6 +1,6 @@
 {
   "network": "mainnet",
-  "version": 19,
+  "version": 20,
   "limits": {
     "bridgeInMaxBalanceUsd": 1232.462
   },
@@ -54,7 +54,7 @@
     "arcadeGcPurchase": true
   },
   "nearIntents": {
-    "serviceUrl": "https://localhost:8787",
+    "serviceUrl": "http://localhost:8787",
     "midenAssets": {
       "wbtc": {
         "assetId": "nep141:miden-0x3084d3c389ececd15fda9770d18c8a.omft.near",
